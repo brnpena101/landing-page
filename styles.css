@@ -1,0 +1,11 @@
+.opening {
+background-color: #1f2937;
+color: white;
+font: #F9FAF8;
+font-weight: bolder;
+font-size: 48px;
+display: flex;
+padding: 200px;
+justify-content: left;
+}
+
