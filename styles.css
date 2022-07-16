@@ -1,11 +1,56 @@
-.opening {
-background-color: #1f2937;
-color: white;
-font: #F9FAF8;
-font-weight: bolder;
-font-size: 48px;
-display: flex;
-padding: 200px;
-justify-content: left;
+.introcontainer { 
+    display: flex;
+    height: 500px;
+    width: auto;
+    border: 200px;
+    background-color: #1f2937;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    padding: 80px;
+    
+   
+}
+
+.introcontainer .info {
+   display: flex;
+   font: #f9faf8;
+   font-size: 48px;
+   font-weight: bolder;
+   color: white;
+ 
+}
+
+.introcontainer .bio {
+   font-size: 18px; 
+   font: #e5e7eb;
+   color: white;
+   display: flex;
+   
+
+}
+
+.introcontainer .about {
+    font-size: 18px; 
+    font: #e5e7eb;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+
+}
+
+.introcontainer .iconimage {
+
+   display: flex;
+   height: 60%;
+   width: auto;
+   position: absolute;
+   left: 730px;
+
+
 }
 
